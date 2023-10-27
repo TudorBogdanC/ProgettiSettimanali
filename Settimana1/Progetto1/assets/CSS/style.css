@@ -1,0 +1,48 @@
+/* IMPOSTAZIONI GENERALI */
+html body {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    height:180px;
+    }
+    #bannerlogo {
+        padding: 30px;
+        height: 48px;
+        margin-bottom: 30px;
+    }
+    #logo {
+        height: 60px;
+        margin-top: 20px;
+    }
+/* MAIN */
+h1, h2, h3 {
+    color:#25a2c3;
+    font-family: 'Monserrat';
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+#testimonianze{
+    background-color:#e22d0e;
+    color: white ;
+}
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
