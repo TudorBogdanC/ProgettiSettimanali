@@ -1,42 +1,86 @@
 /* IMPOSTAZIONI GENERALI */
 html body {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
 }
 body {
-    text-align: center;
-    margin: 0px;
-    font-family: Open Sans;
-    font-size: 1.2rem;
-    line-height: 1.65;
-    color: #393d41;
+  text-align: center;
+  margin: 0px;
+  font-family: Open Sans;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  margin:0;
 }
 
 /* HEADER */
 header {
-    background-color: black;
-    height:180px;
-    }
-    #bannerlogo {
-        padding: 30px;
-        height: 48px;
-        margin-bottom: 30px;
-    }
-    #logo {
-        height: 60px;
-        margin-top: 20px;
-    }
-/* MAIN */
-h1, h2, h3 {
-    color:#25a2c3;
-    font-family: 'Monserrat';
-    font-weight: bold;
-    line-height: 1.5;
+  background-color: black;
+  width:vw;
+  margin: 0;
+}
+#bannerlogo {
+  padding: 30px;
+  height: 48px;
+  margin-bottom: 30px;
+}
+#logo {
+  height: 100%;
+  margin-top: 20px;
+  line-height: 0.5;
+  margin-bottom: 150px;
+}
+button {
+  border: 1px solid;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f04c2f;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#claim {
+  background-image: url(../images/banner.jpg);
+  background-position: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width:vw;
 
 }
+/* MAIN */
+h1,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+main {
+    margin: -25px;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
-#testimonianze{
-    background-color:#e22d0e;
-    color: white ;
+#testimonianze {
+  background-color: #e22d0e;
+  color: white;
+}
+h2 {
+  font-family: "Montserrat";
+  color: white;
+}
+span {
+  font-style: italic;
+}
+#notebook {
+    border-radius: 50%;
+    height:350px;
 }
 
 /* TABELLE */
@@ -44,5 +88,20 @@ h1, h2, h3 {
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
+#cartella1{
+    
+    border: 1px solid #dee1e3;
+    box-shadow: 5px 5px 5px 5px #dee1e3;
+    margin:0;
+    margin-top: 100px;
+    width:100%;
+}
+#immagine1 {
+    background-image: url(../images/foto1.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+
 
 /* FOOTER */
