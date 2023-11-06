@@ -1,1 +1,33 @@
-/* Your styles here */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+#logo {
+    background-color: #222f3e;
+
+}
+#navbar {
+    background-color: #35485a;
+    padding: 1px;
+}
+#navmenu {
+    list-style: none;
+
+}
+li {
+    display: inline;
+    color:white;
+    font-size: 0.7em;
+}
+img {
+    width: 10%;
+}
+
+#claim {
+    margin: 1px solid #f56600;
+    background-color: #f56600;
+    margin-left: 2%;
+    margin-right: 2%;
+}
