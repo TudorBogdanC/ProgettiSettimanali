@@ -362,7 +362,7 @@ h1 {
 
 .articolo img {
   height: 21px;
-  border-radius: 20%;
+  border-radius: 40%;
 }
 
 .articolo b {
@@ -401,7 +401,7 @@ h1 {
 
 .text img {
   height: 25px;
-  border-radius: 20%;
+  border-radius: 45%;
 }
 
 .text small {
@@ -415,4 +415,19 @@ h1 {
   align-items: center;
   gap: 10px;
   margin-top: 10px;
+}
+
+.news1 {
+  display:flex;
+  flex-direction: row;
+  gap: 50px;
+  align-content: center;
+}
+
+.immagine1 {
+  gap: 10px;
+}
+
+.immagine1 img {
+  height: 150px;
 }
