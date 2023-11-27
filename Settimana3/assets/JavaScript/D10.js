@@ -361,7 +361,7 @@ function rollTheDices(number) {
 }
 
 console.log("Esercizio 8");
-console.log(rollTheDices(3));
+rollTheDices(3);
 console.log(dado);
 
 /* ESERCIZIO 9
@@ -406,6 +406,8 @@ function deleteProp(obj, str) {
   delete obj[`${str}`];
   return obj;
 }
+
+console.log("Esercizio 11")
 console.log(deleteProp(me, "surname"));
 
 /* ESERCIZIO 12
@@ -425,6 +427,8 @@ const newestMovie = (filmRecente) => {
   return filmRecente;
 };
 
+
+console.log("Esercizio 12")
 console.log(newestMovie(movies));
 
 

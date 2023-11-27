@@ -1,0 +1,418 @@
+
+
+
+header {
+  display: flex;
+  background-color: #ffc017;
+}
+
+.intestazione {
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intestazione img {
+  height: 25px;
+  padding: 2em;
+  margin-left: 4em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 7em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  padding: 1em;
+}
+
+.primoBottone {
+  width: 150px;
+  border-radius: 25px;
+  padding: 10px;
+  height: 6vh;
+  color: white;
+  background-color: #191919;
+  border: none;
+}
+
+.stayCurious {
+  display: flex;
+  background-color: #ffc017;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.text {
+  display: flex;
+
+  padding-left: 100px;
+
+  flex-direction: column;
+
+  margin-top: 5em;
+}
+
+.titolone {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Spectral";
+  font-weight: 500;
+  font-size: 7em;
+}
+
+.paragrafo {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 1.8rem;
+  margin-top: 1em;
+}
+
+.bottoneCurioso {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  margin-top: -4em;
+}
+
+.secondoBottone {
+  width: 250px;
+  border-radius: 25px;
+  height: 6vh;
+  color: white;
+  background-color: #191919;
+  font-size: larger;
+  border: none;
+}
+
+.m {
+  max-height: 200px;
+  position: absolute;
+  left: 60%;
+  font-family: "Spectral";
+  font-size: 1.8em;
+  display: flex;
+  align-items:normal;
+  margin-top: 30px;
+  margin-left: 20px;
+  overflow: hidden;
+  
+}
+
+.lettere i {
+  align-self: flex-end;
+  position: relative;
+  opacity: 1;
+  -webkit-animation: opacityM 6s infinite alternate both 6s;
+  -ms-animation: opacityM 6s infinite alternate both 6s;
+  animation: opacityM 6s infinite alternate both 6s;
+}
+
+.lettere i:nth-child(5) {
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.lettere i:nth-child(7) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(13) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(17) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.lettere i:nth-child(30) {
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.lettere i:nth-child(41) {
+  -webkit-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.lettere i:nth-child(34) {
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.lettere i:nth-child(70) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(55) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(60) {
+  -webkit-animation-delay: 7s;
+  -ms-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+.lettere i:nth-child(74) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.lettere i:nth-child(1) {
+  -webkit-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.lettere i:nth-child(56) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.lettere i:nth-child(68) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.lettere i:nth-child(54) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(88) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.lettere i:nth-child(90) {
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.lettere i:nth-child(21) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(10) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(20) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.lettere i:nth-child(3) {
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.lettere i:nth-child(5) {
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.lettere i:nth-child(25) {
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.lettere i:nth-child(37) {
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.lettere i:nth-child(45) {
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+}
+
+.lettere i:nth-child(7) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(33) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(8) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(58) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(66) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(23) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(75) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(55) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(47) {
+  color: #ffc017;
+}
+
+.lettere i:nth-child(15) {
+  color: #ffc017;
+}
+
+@keyframes opacityM {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+/* MAIN */
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.boxMain {
+  margin: 3rem  3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.trending {
+  width: 100%;
+}
+.articolo {
+ display: flex;
+ align-items: flex-start;
+ margin-top: 1.3rem;
+ gap: 1rem;
+ flex-basis: 33%; 
+ width: 33%;
+}
+
+
+.numero {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing:  -1px;
+  color: rgba(157, 157, 157, 0.35) ;
+
+}
+
+.articolo img {
+  height: 21px;
+  border-radius: 20%;
+}
+
+.articolo b {
+  font-family: 'Spectral';
+  font-weight: 500;
+}
+
+.articolo h6 {
+  font-family: 'Spectral';
+  font-weight: bold;
+}
+
+.articolo p {
+  font-family: 'Spectral';
+  font-weight: lighter;
+}
+
+
+.testo small {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testo p {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.text {
+  display: flex;
+}
+
+.text img {
+  height: 25px;
+  border-radius: 20%;
+}
+
+.text small {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text p {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
