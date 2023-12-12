@@ -25,7 +25,6 @@ async function populateEditForm(productId) {
 function fillFormFields(productDetails) {
     // Popola i campi del modulo di modifica con i dati del prodotto
     document.getElementById("editName").value = productDetails.name;
-    document.getElementById("editBrand").value = productDetails.brand;
     document.getElementById("editDescription").value = productDetails.description;
     document.getElementById("editPrice").value = productDetails.price;
 }
@@ -36,7 +35,6 @@ async function saveChanges() {
        
         const newRecord = {
             "name": document.getElementById("editName").value,
-            "brand": document.getElementById("editBrand").value,
             "description": document.getElementById("editDescription").value,
             "price": document.getElementById("editPrice").value,
             
@@ -48,10 +46,14 @@ async function saveChanges() {
             
         })
 
+        
+
     let result = await response.json();
     } catch (error) {
         console.log(error);
     }
+
+   
 }
 
 window.onload = function() {
