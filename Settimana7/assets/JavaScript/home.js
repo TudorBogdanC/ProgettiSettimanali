@@ -71,7 +71,7 @@ function createCards(products) {
                 </div>
                 <div class="card-footer d-flex justify-content-between">
                     <a class="btn btn-info" href="./details.html?id=${product._id}">Dettagli</a>
-                    <a href="#" class="btn btn-danger">Modifica</a>
+                    <a href="#" class="btn btn-danger" onclick="openEditWindow('${product._id}')">Modifica</a>
                 </div>
             </div>
         </div>    
@@ -81,7 +81,9 @@ function createCards(products) {
    
 }
 
-
+function openEditWindow(productId) {
+    window.open(`back-office.html?id=${productId}`, "_blank", "width=800,height=600");
+}
 
 window.onload = function() {
     renderProducts();
