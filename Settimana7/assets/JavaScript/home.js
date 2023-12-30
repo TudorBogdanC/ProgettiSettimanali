@@ -61,7 +61,7 @@ function createCards(products) {
 
     products.forEach(product => {
        let card = `
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-lg-4 g-4">
             <div class="card">
                 <img class="card-img-top" src="${product.imageUrl}" alt="Cellulare">
                 <div class="card-body">
