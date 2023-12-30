@@ -1,6 +1,6 @@
 const url = "https://striveschool-api.herokuapp.com/api/product/";
 const token =
-  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTc4MmQxZGMwNTgzNTAwMTg1MjJkZjUiLCJpYXQiOjE3MDIzNzQ2ODUsImV4cCI6MTcwMzU4NDI4NX0.grBzBQeX2vCAxdW29y79eHXLROtPgdqgj8-qGNsc_do";
+  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NThmZGNiOWRiOGY5NzAwMThiODMwZGYiLCJpYXQiOjE3MDM5MjY5NjksImV4cCI6MTcwNTEzNjU2OX0.nYdcNpqP8-M1X6Dfnnx-eYCpfEK0nB87kLql9A7P2CI";
 const headers = {
     "Authorization": token,
     "Accept": "application/json",
@@ -82,7 +82,7 @@ function createCards(products) {
 }
 
 function openEditWindow(productId) {
-    window.open(`back-office.html?id=${productId}`, "_blank", "width=800,height=600");
+    window.open(`back-office.html?id=${productId}`, "_blank", "width=900,height=500");
 }
 
 window.onload = function() {

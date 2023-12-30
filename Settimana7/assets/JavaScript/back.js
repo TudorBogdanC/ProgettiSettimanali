@@ -46,14 +46,11 @@ async function saveChanges() {
             
         })
 
-        
-
-    let result = await response.json();
+        let result = await response.json();
     } catch (error) {
         console.log(error);
     }
 
-   
 }
 
 window.onload = function() {
