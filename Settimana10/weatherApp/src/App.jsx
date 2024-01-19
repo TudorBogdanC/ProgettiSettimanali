@@ -6,13 +6,13 @@ import './App.css'
 
 function App() {
   
-const [weather, setWeather] = useState([])
+const [weather, setWeather] = useState(null)
 const [location, setLocation] = useState("")
 
   
 function handleSearch() {
   if (location.length > 3) {
-    fetch("https://api.openweathermap.org/data/2.5/weather?q="+ location + ",it&units=metric&APPID=409afc7f87e8fd813a8c6af03a8da3a8")
+    fetch("https://api.openweathermap.org/data/2.5/weather?q="+ location + ",it&units=metric&APPID=409afc7f87e8fd813a8c6af03a8da3a8&lang=it")
       .then((response) => {
         console.log(response)
         return response.json();
@@ -25,6 +25,7 @@ function handleSearch() {
 }
 
   return (
+    
     <div className="app">
       <div className="search">
         <input
@@ -35,35 +36,36 @@ function handleSearch() {
         />
         <button className="btn btn-lg bg-transparent text-white" onClick={()=> handleSearch()}>🔎</button>
       </div>
+        {weather != null && (
        <div className="container"> 
          <div className="top">
            <div className="location">
              <p>{weather?.name}</p>
            </div>
            <div className="temp">
-              <h1>{weather?.main.temp.toFixed()}°C</h1>
+              <h1>{weather?.main?.temp.toFixed()}° C</h1>
            </div>
            <div className="description">
-              <p>{weather?.weather[0].description}</p>
+              <p>{weather?.weather[0]?.description}</p>
            </div>
          </div>
          <div className="bottom">
            <div className="feel">
-             <p className="bold">{weather?.main.feels_like.toFixed()}° C</p>
-             <small>Feels like</small>
+             <p className="bold"> {weather?.main?.feels_like.toFixed()}° C</p>
+             <small>Rugiada</small>
            </div>
            <div className="humidity">
-             <p className="bold">{weather?.main.humidity}</p>
-             <small>Humidity</small>
+             <p className="bold">{weather?.main?.humidity}</p>
+             <small>Umidità</small>
            </div>
            <div className="wind">
-             <p className="bold">{weather?.wind.speed} km/h</p>
-             <small>Wind Speed</small>
+             <p className="bold">{weather?.wind?.speed.toFixed()} km/h</p>
+             <small>Vento</small>
            </div>
          </div>
-       </div>
+       </div>)}
     </div>
-  )
-}
 
+
+ )}
 export default App
