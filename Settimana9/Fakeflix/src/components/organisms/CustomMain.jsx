@@ -1,4 +1,4 @@
-import GenresComponent from "../atoms/GenresComponent";
+import GenresMain from "../atoms/GenresMain";
 import GalleryCustom from "../molecules/GalleryCustom"
 
 
@@ -6,15 +6,15 @@ import GalleryCustom from "../molecules/GalleryCustom"
 const CustomMain = () => {
     return (
         <>
-          <GenresComponent/>
-          <p className="text-light mx-5">Futurama</p>
-          <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=futurama"/>
+          <GenresMain/>
+          <p className="text-light mx-5">The Matrix</p>
+          <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=the%20Matrix"/>
           <br/>
           <p className="text-light mx-5">Doctor Who</p>
           <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=doctor%20who"/>
           <br/>
-          <p className="text-light mx-5">Star Wars</p>
-          <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=star%20wars"/>
+          <p className="text-light mx-5">Disney Selected</p>
+          <GalleryCustom url="http://www.omdbapi.com/?apikey=f0a20f4e&s=disney"/>
         </>
     )
 }

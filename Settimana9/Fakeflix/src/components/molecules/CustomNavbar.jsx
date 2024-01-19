@@ -2,6 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import DropdownButtonCustom from '../atoms/DropdownButtonCustom';
 
 
@@ -9,17 +10,17 @@ function CustomNavbar() {
   return (
     <Navbar expand="lg" style={{backgroundColor: "#212529", marginBottom: "50px"}}>
       <Container fluid>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img src="../src/assets/images/netflix_logo.png" width="100px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="text-light">Home</Nav.Link>
-            <Nav.Link href="#link" className="text-light">TV Shows</Nav.Link>
-            <Nav.Link href="#link" className="text-light">Movies</Nav.Link>
-            <Nav.Link href="#link" className="text-light">Recently Added</Nav.Link>
-            <Nav.Link href="#link" className="text-light">My List</Nav.Link>
+            <Link to="/" className="nav-link text-light">Home</Link>
+            <Link to="/tv-shows" className="nav-link text-light">TV Shows</Link>
+            <Link to="/movies" className="nav-link text-light">Movies</Link>
+            <Link to="/recently-added" className="nav-link text-light">Recently Added</Link>
+            <Link to="/my-list" className="nav-link text-light">My List</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
