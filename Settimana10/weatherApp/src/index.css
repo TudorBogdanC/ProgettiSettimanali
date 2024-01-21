@@ -15,18 +15,27 @@ body {
 
 p {
   font-size: 1.6rem;
+  font-family: 'Spectral';
 }
 
+
 h1 {
-  font-size:6rem
+  font-size:6rem;
 }
 .temp {
   font-family: 'Tektur';
-  opacity: 0.7
+  opacity: 0.6
 }
 
 .description {
   opacity: 0.7;
+}
+
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .bottom {
@@ -53,8 +62,9 @@ h1 {
 }
 
 .app .search {
-  text-align: center;
+  text-align:center;
   padding: 1rem;
+
 }
 
 .app input {
@@ -65,6 +75,8 @@ h1 {
    background: rgba(255,255,255,0.1);
    color: #fff;
    opacity:0.7;
+   font-family: 'Spectral';
+   width:80%;
 }
 
 ::placeholder {
@@ -83,6 +95,11 @@ h1 {
   justify-content: space-between;
 }
 
+.location p {
+  opacity: 0.5;
+  font-size: 35px;
+}
+
 .app .top {
   width: 100%;
   margin: 1rem auto;
@@ -95,6 +112,15 @@ h1 {
     transform: rotate(270deg)
 }
 
+.app .middle {
+    padding:1rem;
+    margin: 1rem auto;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,0.1);
+    width:100%
+
+}
+
 .app .bottom {
   display: flex;
   justify-content: space-evenly;
@@ -103,10 +129,25 @@ h1 {
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
 }
 
 .bold {
   font-weight: 700;
   font-family: 'Tektur' ;
+}
+
+small {
+  font-size: 12px
+}
+
+.dayOne, .dayTwo, .dayThree {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small {
+  font-size: 16px;
+  opacity: 0.7
 }
